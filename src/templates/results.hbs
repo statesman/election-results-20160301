@@ -1,0 +1,66 @@
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Precinct {{#if PCT}}{{PCT}} {{/if}}results</h3>
+  </div>
+  <div class="panel-body">
+    {{#if PCT}}
+      <table class="table table-striped table-condensed">
+        <thead>
+          <tr>
+            <th>Candidate</th>
+            <th class="text-right">Votes</th>
+            <th class="text-right">Share</th>
+          </tr>
+        </thead>
+        <tbody>
+          {{#each races}}
+            <tr>
+              <td>{{candidate}}</td>
+              <td class="text-right">{{votes_str}}</td>
+              <td class="text-right">{{share}}</td>
+            </tr>
+          {{/each}}
+        </tbody>
+      </table>
+    {{else}}
+      <p>Tap or hover over a race to see per-precinct vote counts.</p>
+    {{/if}}
+  </div>
+</div>
+
+{{#if PCT}}{{#if demos}}
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h3 class="panel-title">Precinct {{PCT}} 2010 demographics</h3>
+    </div>
+    <div class="panel-body">
+      {{#if PCT}}
+        <table class="table table-striped table-condensed">
+          <thead>
+            <tr>
+              <th></th>
+              <th class="text-right">Population</th>
+              <th class="text-right">Voter-age population</th>
+            </tr>
+          </thead>
+          <tbody>
+            {{#each demos}}
+              <tr>
+                <td>{{group}}</td>
+                <td class="text-right">{{{sum}}}</td>
+                <td class="text-right">{{{sum_vap}}}</td>
+              </tr>
+            {{/each}}
+            <tr>
+              <td><strong>Total</strong></td>
+              <td class="text-right"><strong>{{demos_sum.sum}}</strong></td>
+              <td class="text-right"><strong>{{demos_sum.sum_vap}}</strong></td>
+            </tr>
+          </tbody>
+        </table>
+      {{else}}
+        <p>Tap or hover over a race to see per-precinct vote counts.</p>
+      {{/if}}
+    </div>
+  </div>
+{{/if}}{{/if}}

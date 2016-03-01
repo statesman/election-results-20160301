@@ -1,0 +1,32 @@
+{
+  "name": "turnout-map",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/statesman/elex-maps.git"
+  },
+  "author": "Andrew Chavez <adchavez@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/statesman/elex-maps/issues"
+  },
+  "homepage": "https://github.com/statesman/elex-maps",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-bootlint": "^0.9.1",
+    "grunt-contrib-copy": "^0.8.2",
+    "grunt-contrib-handlebars": "^0.9.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-uglify": "^0.6.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-ftpush": "^0.3.3",
+    "grunt-slack-hook": "0.0.4"
+  },
+  "dependencies": {
+    "grunt-contrib-less": "^0.12.0"
+  }
+}

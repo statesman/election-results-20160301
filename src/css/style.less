@@ -1,0 +1,93 @@
+// Bring in vanilla Bootstrap ...
+@import 'custom-bootstrap/bootstrap.less';
+// ... and then decorate it with TCU 360 styles
+@import 'custom-bootstrap/variables.less';
+
+/* Map */
+#map {
+  margin-bottom: 10px;
+  @media (min-width: @screen-sm-min) {
+    height:500px;
+    margin-bottom: 0;
+  }
+  @media (min-width: @screen-md-min) {
+    height:600px;
+  }
+}
+
+/* Inputs */
+#race {
+  @media (max-width: @screen-md) {
+    margin-bottom: 10px;
+  }
+}
+
+/* Navbar */
+.navbar-brand img {
+  height: 26px;
+  width: auto;
+}
+
+/* Legend */
+#key {
+  .key-item.list-group-item {
+    padding: 10px 15px;
+    font-size: 13px;
+    line-height: 13px;
+    cursor: pointer;
+    .color {
+      opacity: .5;
+      width: 13px;
+      height: 13px;
+      margin-right: 8px;
+      border-radius: 50%;
+    }
+    &.disabled {
+      cursor: default;
+    }
+  }
+}
+
+/* Precinct-by-precinct results widget */
+#results {
+  .panel-body {
+    padding: 10px 15px 8px 15px;
+    p {
+      margin-bottom: 2px;
+    }
+    .table {
+      margin-bottom: 5px;
+      font-size: .9em;
+      td {
+        padding: 3.5px 5px;
+      }
+    }
+  }
+}
+
+/* Panels */
+.panel-heading {
+  padding: 8px 15px;
+}
+.panel-title {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.95em;
+  color: #777;
+}
+
+/* Header */
+.header {
+  margin-bottom: 20px;
+  h2.page-title {
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+  h4 {
+    color: #777;
+    text-transform:uppercase;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: .9em;
+  }
+}
