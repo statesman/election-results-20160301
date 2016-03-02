@@ -101,7 +101,13 @@ module.exports = function(grunt) {
             'src/js/results.js',
             'src/js/map.js',
             'src/js/main.js'
-          ]
+        ],
+        'public/dist/county.js': [
+          'bower_components/jquery/dist/jquery.js',
+          'bower_components/gmaps/gmaps.js',
+          'bower_components/underscore/underscore.js',
+          'src/js/counties.js'
+        ]
         }
       }
     },
@@ -123,7 +129,7 @@ module.exports = function(grunt) {
         livereload: true
       },
       markup: {
-        files: ['public/*.php','public/includes/*.inc']
+        files: ['public/*.php','public/includes/*.inc', 'public/county-results/*.inc']
       },
       scripts: {
         files: ['src/js/*.js'],
