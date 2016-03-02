@@ -175,7 +175,7 @@ module.exports = function(grunt) {
           text: 'Project published to stage: http://stage.host.coxmediagroup.com/aas/projects/databases/election-map-20160301/ {{message}}'
         },
         prod: {
-          text: 'Project published to prod: http://projects.statesman.comdatabases/election-map-20160301/ {{message}}'
+          text: 'Project published to prod: http://projects.statesman.com/databases/election-map-20160301/ {{message}}'
         }
     }
 
