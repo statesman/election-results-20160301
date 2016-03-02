@@ -71,4 +71,8 @@ I then used regex on that to create `contest_selects_travis.txt`, which is forma
 
 ```
 
+* Lastly, I put in a blank `williamson.csv` file with only headers so the next step wouldn't choke.
 
+### Creating the JSON files
+
+The script `races.py` walks through the `results/travis.csv` and and `results/williamson.csv` files to combine them. I took the contents of my `contest_titles_travis_py.csv` file and replaced what was at the bottom of `races.py` and then ran the python script. (It did fail first when I didn't have a `williamson.csv` file it expected.)

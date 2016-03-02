@@ -96,13 +96,12 @@
                 <option data-zoom="-1" data-center="30.329632, -97.758797" value="tr-bond">TRAVIS COUNTY BOND PROPOSITION, TRAVIS COUNTY BOND ELECTION</option>
             </optgroup>
             <optgroup label="State amendments">
-                <option data-zoom="-1" data-center="30.329632, -97.758797" value="ca-01">PROP. 1, CONSTITUTIONAL AMENDMENT ELECTION</option>
-                <option data-zoom="-1" data-center="30.329632, -97.758797" value="ca-02">PROP. 2, CONSTITUTIONAL AMENDMENT ELECTION</option>
-                <option data-zoom="-1" data-center="30.329632, -97.758797" value="ca-03">PROP. 3, CONSTITUTIONAL AMENDMENT ELECTION</option>
-                <option data-zoom="-1" data-center="30.329632, -97.758797" value="ca-04">PROP. 4, CONSTITUTIONAL AMENDMENT ELECTION</option>
-                <option data-zoom="-1" data-center="30.329632, -97.758797" value="ca-05">PROP. 5, CONSTITUTIONAL AMENDMENT ELECTION</option>
-                <option data-zoom="-1" data-center="30.329632, -97.758797" value="ca-06">PROP. 6, CONSTITUTIONAL AMENDMENT ELECTION</option>
-                <option data-zoom="-1" data-center="30.329632, -97.758797" value="ca-07">PROP. 7, CONSTITUTIONAL AMENDMENT ELECTION</option>
+                <option data-zoom="-1" data-center="30.470995016166533,-97.67961883544923" value="p-d">PRESIDENT - DEM</option>
+                <option data-zoom="-1" data-center="30.470995016166533,-97.67961883544923" value="rd35-d">DISTRICT 35, UNITED STATES REPRESENTATIVE - DEM</option>
+                <option data-zoom="-1" data-center="30.470995016166533,-97.67961883544923" value="rc-d">RAILROAD COMMISSIONER - DEM</option>
+                <option data-zoom="-1" data-center="30.470995016166533,-97.67961883544923" value="scj3-d">PLACE 3, JUSTICE, SUPREME COURT - DEM</option>
+                <option data-zoom="-1" data-center="30.470995016166533,-97.67961883544923" value="scj5-d">PLACE 5, JUSTICE, SUPREME COURT - DEM</option>
+                <option data-zoom="-1" data-center="30.470995016166533,-97.67961883544923" value="scj9-d">PLACE 9, JUSTICE, SUPREME COURT - DEM</option>
             </optgroup>
             <optgroup label="Individual cities">
                 <option data-zoom="+2" data-center="30.458022, -97.613120" value="pf-p3">COUNCIL MEMBER, PLACE 3, CITY OF PFLUGERVILLE</option>
