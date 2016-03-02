@@ -152,7 +152,7 @@ def build_race_file(target_races, filename):
   json_out.close()
 
 build_race_file(["PRESIDENT - DEM"], 'p-d')
-build_race_file(["DISTRICT 35, UNITED STATES REPRESENTATIVE - DEM"], 'rd35-d')
+build_race_file(["DISTRICT 35, UNITED STATES REPRESENTATIVE - DEM"], 'usr35-d')
 build_race_file(["RAILROAD COMMISSIONER - DEM"], 'rc-d')
 build_race_file(["PLACE 3, JUSTICE, SUPREME COURT - DEM"], 'scj3-d')
 build_race_file(["PLACE 5, JUSTICE, SUPREME COURT - DEM"], 'scj5-d')
