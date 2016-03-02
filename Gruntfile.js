@@ -145,7 +145,7 @@ module.exports = function(grunt) {
         src: 'public',
         dest: '/stage_aas/projects/databases/election-map-20160301/',
         exclusions: ['dist/tmp','Thumbs.db','.DS_Store'],
-        simple: false,
+        simple: true,
         useList: false
       },
       // prod path will need to change
