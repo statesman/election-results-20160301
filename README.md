@@ -54,13 +54,21 @@ FROM
 `20160301_Travis`
 ```
 
-* I then took each line of that file and started creating the python array:
+* I then took each line of that file and started creating the python array in a file called `contest_titles_travis_py.csv`:
 
 ``` python
 build_race_file(["PRESIDENT - DEM"], 'p-dem')
 build_race_file(["DISTRICT 35, UNITED STATES REPRESENTATIVE - DEM"], 'rd35-dem')
 ```
 
-The last field has to be unique for the race, and will be used in the name of the JSON file, and for the dropdown in the map.
+The last field has to be unique for the race, and will be used in the name of the JSON file, and for the dropdown in the map. I had to decide myself what to call each race.
+
+I then used regex on that to create `contest_selects_travis.txt`, which is formated like this:
+
+``` html
+<option data-zoom="-1" data-center="30.470995016166533,-97.67961883544923" value="p-d">PRESIDENT - DEM</option>
+<option data-zoom="-1" data-center="30.470995016166533,-97.67961883544923" value="rd35-d">DISTRICT 35, UNITED STATES REPRESENTATIVE - DEM</option>
+
+```
 
 
