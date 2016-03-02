@@ -7,7 +7,9 @@ var Palette = (function() {
       '#1E8A0E',
       '#FFCC00',
       '#FF6600',
-      '#4D1979'
+      '#4D1979',
+      'red',
+      'blue'
     ];
     this.partycolors = {
       'TIE': '#000000',

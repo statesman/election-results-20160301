@@ -84,7 +84,7 @@
       <div class="col-xs-12 header">
         <h4>2016 elections</h4>
         <h2 class="page-title">Travis county precinct-by-precinct results</h2>
-        <p><small>Interactive by Christian McDonald and Cody Winchester Austin American-Statesman</small></p>
+        <p><small>Interactive by Christian McDonald and Cody Winchester, Austin American-Statesman</small></p>
         <p>Use the dropdown to see the highest vote-getter in a race in a Travis county precinct in the March 1 primary election. Roll your cursor over each precinct on the map to see votes for all candidates in the selected race. Hover over a candidate's name in the map legend to see his or her support in each precinct. Williamson county totals are not included.</p>
       </div>
 
@@ -97,28 +97,28 @@
 <option data-zoom="-1" data-center="30.329632, -97.758797" value="p-r">PRESIDENT - REP</option>
 <option data-zoom="+1" data-center="30.372542, -97.652969" value="usr10-d">DISTRICT 10, UNITED STATES REPRESENTATIVE - DEM</option>
 <option data-zoom="+1" data-center="30.372542, -97.652969" value="usr10-r">DISTRICT 10, UNITED STATES REPRESENTATIVE - REP</option>
-<option data-zoom="+1" data-center="30.329632, -97.758797" value="usr17-d">DISTRICT 17, UNITED STATES REPRESENTATIVE - DEM</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="usr17-r">DISTRICT 17, UNITED STATES REPRESENTATIVE - REP</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="usr21-d">DISTRICT 21, UNITED STATES REPRESENTATIVE - DEM</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="usr21-r">DISTRICT 21, UNITED STATES REPRESENTATIVE - REP</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="usr25-d">DISTRICT 25, UNITED STATES REPRESENTATIVE - DEM</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="usr25-r">DISTRICT 25, UNITED STATES REPRESENTATIVE - REP</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="usr35-d">DISTRICT 35, UNITED STATES REPRESENTATIVE - DEM</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="usr35-r">DISTRICT 35, UNITED STATES REPRESENTATIVE - REP</option>
+<option data-zoom="+1" data-center="30.468765, -97.545294" value="usr17-d">DISTRICT 17, UNITED STATES REPRESENTATIVE - DEM</option>
+<option data-zoom="+1" data-center="30.468765, -97.545294" value="usr17-r">DISTRICT 17, UNITED STATES REPRESENTATIVE - REP</option>
+<option data-zoom="+1" data-center="30.232049, -97.872953" value="usr21-d">DISTRICT 21, UNITED STATES REPRESENTATIVE - DEM</option>
+<option data-zoom="+1" data-center="30.232049, -97.872953" value="usr21-r">DISTRICT 21, UNITED STATES REPRESENTATIVE - REP</option>
+<option data-zoom="0" data-center="30.381437, -98.026075" value="usr25-d">DISTRICT 25, UNITED STATES REPRESENTATIVE - DEM</option>
+<option data-zoom="0" data-center="30.381437, -98.026075" value="usr25-r">DISTRICT 25, UNITED STATES REPRESENTATIVE - REP</option>
+<option data-zoom="+1" data-center="30.195331, -97.665732, -97.758797" value="usr35-d">DISTRICT 35, UNITED STATES REPRESENTATIVE - DEM</option>
+<option data-zoom="+1" data-center="30.195331, -97.665732" value="usr35-r">DISTRICT 35, UNITED STATES REPRESENTATIVE - REP</option>
             </optgroup>
             <optgroup label="State races">
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="ss21-d">DISTRICT 21, STATE SENATOR - DEM</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="ss24-d">DISTRICT 24, STATE SENATOR - DEM</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="ss24-r">DISTRICT 24, STATE SENATOR - REP</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="sr46-d">DISTRICT 46, STATE REPRESENTATIVE - DEM</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="sr46-r">DISTRICT 46, STATE REPRESENTATIVE - REP</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="sr47-d">DISTRICT 47, STATE REPRESENTATIVE - DEM</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="sr47-r">DISTRICT 47, STATE REPRESENTATIVE - REP</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="sr48-d">DISTRICT 48, STATE REPRESENTATIVE - DEM</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="sr49-d">DISTRICT 49, STATE REPRESENTATIVE - DEM</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="sr50-d">DISTRICT 50, STATE REPRESENTATIVE - DEM</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="sr50-r">DISTRICT 50, STATE REPRESENTATIVE - REP</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="sr51-d">DISTRICT 51, STATE REPRESENTATIVE - DEM</option>
+<option data-zoom="+1" data-center="30.137376, -97.716907" value="ss21-d">DISTRICT 21, STATE SENATOR - DEM</option>
+<option data-zoom="+1" data-center="30.336957, -98.009545" value="ss24-d">DISTRICT 24, STATE SENATOR - DEM</option>
+<option data-zoom="+1" data-center="30.336957, -98.009545" value="ss24-r">DISTRICT 24, STATE SENATOR - REP</option>
+<option data-zoom="+1" data-center="30.331981, -97.601582" value="sr46-d">DISTRICT 46, STATE REPRESENTATIVE - DEM</option>
+<option data-zoom="+1" data-center="30.331981, -97.601582" value="sr46-r">DISTRICT 46, STATE REPRESENTATIVE - REP</option>
+<option data-zoom="-1" data-center="30.356862, -98.006662" value="sr47-d">DISTRICT 47, STATE REPRESENTATIVE - DEM</option>
+<option data-zoom="-1" data-center="30.356862, -98.006662" value="sr47-r">DISTRICT 47, STATE REPRESENTATIVE - REP</option>
+<option data-zoom="+1" data-center="30.288111, -97.786823" value="sr48-d">DISTRICT 48, STATE REPRESENTATIVE - DEM</option>
+<option data-zoom="+1" data-center="30.286244, -97.749343" value="sr49-d">DISTRICT 49, STATE REPRESENTATIVE - DEM</option>
+<option data-zoom="+1" data-center="30.391375, -97.545361" value="sr50-d">DISTRICT 50, STATE REPRESENTATIVE - DEM</option>
+<option data-zoom="+1" data-center="30.391375, -97.545361" value="sr50-r">DISTRICT 50, STATE REPRESENTATIVE - REP</option>
+<option data-zoom="+1" data-center="30.146102, -97.681589" value="sr51-d">DISTRICT 51, STATE REPRESENTATIVE - DEM</option>
 <option data-zoom="-1" data-center="30.329632, -97.758797" value="rc-d">RAILROAD COMMISSIONER - DEM</option>
 <option data-zoom="-1" data-center="30.329632, -97.758797" value="rc-r">RAILROAD COMMISSIONER - REP</option>
 <option data-zoom="-1" data-center="30.329632, -97.758797" value="sboe5-d">DISTRICT 5, MEMBER, STATE BOARD OF EDUCATION - DEM</option>
