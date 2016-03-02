@@ -9,7 +9,11 @@ Thought is to have a two pronged project:
 God help us.
 
 ### County scrape
-`pip install requirements.txt`
-`cd results/state`
-`fab scrape:d > dems.json` for a json file of Democratic primary results
-`fab scrape:r > gop.json` for a json file of GOP primary results
+``` shell
+pip install requirements.txt
+cd results/state
+## for a json file of Democratic primary:
+fab scrape:d > dems.json results
+##for a json file of GOP primary results:
+fab scrape:r > gop.json 
+```
