@@ -95,9 +95,9 @@
             <optgroup label="National">
 <option data-zoom="-1" data-center="30.329632, -97.758797" value="p-d">PRESIDENT - DEM</option>
 <option data-zoom="-1" data-center="30.329632, -97.758797" value="p-r">PRESIDENT - REP</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="usr10-d">DISTRICT 10, UNITED STATES REPRESENTATIVE - DEM</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="usr10-r">DISTRICT 10, UNITED STATES REPRESENTATIVE - REP</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="usr17-d">DISTRICT 17, UNITED STATES REPRESENTATIVE - DEM</option>
+<option data-zoom="+1" data-center="30.372542, -97.652969" value="usr10-d">DISTRICT 10, UNITED STATES REPRESENTATIVE - DEM</option>
+<option data-zoom="+1" data-center="30.372542, -97.652969" value="usr10-r">DISTRICT 10, UNITED STATES REPRESENTATIVE - REP</option>
+<option data-zoom="+1" data-center="30.329632, -97.758797" value="usr17-d">DISTRICT 17, UNITED STATES REPRESENTATIVE - DEM</option>
 <option data-zoom="-1" data-center="30.329632, -97.758797" value="usr17-r">DISTRICT 17, UNITED STATES REPRESENTATIVE - REP</option>
 <option data-zoom="-1" data-center="30.329632, -97.758797" value="usr21-d">DISTRICT 21, UNITED STATES REPRESENTATIVE - DEM</option>
 <option data-zoom="-1" data-center="30.329632, -97.758797" value="usr21-r">DISTRICT 21, UNITED STATES REPRESENTATIVE - REP</option>
