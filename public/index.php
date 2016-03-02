@@ -7,8 +7,8 @@
   $meta = array(
     "title" => "Travis County March 1, 2016 primary election results by precinct  | Statesman.com",
     "description" => "Precinct-level results for the March 1, 2016 election.",
-    "thumbnail" => "http://projects.statesman.com/election-results-20160301/assets/share.png", // needs update
-    "shortcut_icon" => "http://media.cmgdigital.com/shared/theme-assets/242014/www.statesman.com_5126cb2068bd43d1ab4e17660ac48255.ico",
+    "thumbnail" => "http://projects.statesman.com/databases/election-results-20160301/assets/social-share.png", // needs update
+    "shortcut_icon" => "http://media.cmgdigital.com/shared/media/2015-11-16-11-32-05/web/site/www_mystatesman_com/images/favicon.ico",
     "apple_touch_icon" => "http://media.cmgdigital.com/shared/theme-assets/242014/www.statesman.com_fa2d2d6e73614535b997734c7e7d2287.png",
     "url" => "http://projects.statesman.com/databases/election-results-20160301/",
     "twitter" => "statesman"
