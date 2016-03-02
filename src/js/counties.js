@@ -49,13 +49,6 @@ function addCommas(num) {
         "Ted Cruz": "#1E44A8"
     };
 
-    var gmap = new GMaps({
-      div: "#map",
-      lat: 31.29,
-      lng: -100.29,
-      zoom: 6
-    });
-
     $('#loading').html('Loading ...');
 
     // get county geojson
@@ -72,6 +65,14 @@ function addCommas(num) {
                 gop_data = data;
             })
         ).then(function() {
+
+            var gmap = new GMaps({
+              div: "#map",
+              lat: 31.29,
+              lng: -100.29,
+              zoom: 6
+            });
+
             $('.partypick').on('click', function() {
                 var $t = $(this);
                 if ($t.attr('id') === "gop") {
@@ -89,7 +90,6 @@ function addCommas(num) {
                 var p = $t.attr('id');
                 updateMap(p);
             });
-
 
         function fetchResults(fips, party) {
             var record;
@@ -119,7 +119,7 @@ function addCommas(num) {
                 results.candidates.push({
                     name: k,
                     votes: v,
-                    share: ((+v / total) * 100).toFixed(2)
+                    share: ((+v / total) * 100).toFixed(2).replace(".00", "")
                 });
             });
             return results;
@@ -197,12 +197,15 @@ function addCommas(num) {
         // draw the county polygons
         _.each(geodata.features, function(d) {
             var record = fetchResults(d.properties.COUNTYFP.toString(), "gop");
-            if (record.totalvotes > 0) {
                 var winner = _.max(record.candidates, function(d) { return d.votes; } );
                 var color;
                 if (record.isTie) {
                     color = "#000000";
-                } else {
+                }
+                else if (record.totalvotes < 1) {
+                    color = "#ffffff";
+                }
+                else {
                     color = colors[winner.name];
                 }
 
@@ -224,8 +227,10 @@ function addCommas(num) {
                   fillOpacity: (winner.votes / record.totalvotes) * 1.25,
                   data: to_template,
                   zIndex: 500,
+                  fips: d.properties.COUNTYFP,
                   mouseover: function(d) {
                       $("#results").html(results_template(this.data));
+                      console.log(this.fips);
                         this.setOptions({
                           strokeWeight: 4,
                           strokeOpacity: 0.75,
@@ -241,28 +246,75 @@ function addCommas(num) {
                     });
                   }
                 });
-              }
          });
-
-         function populateSidebar(data) {
-
-         }
         // hide loading indicator
         $('#loading').html('');
 
         function updateMap(party) {
             // show loading indicator
             $('#loading').html('Loading ...');
-            if (party === "dems") {
+            var w = getUniqueWinners(party);
 
-            } else {
+            var key_data_to_template = {
+                cands: []
+            };
 
-            }
+            _.each(w, function(s) {
+                if (s && s !== "") {
+                    key_data_to_template.cands.push({
+                        "name": s,
+                        "color": colors[s]
+                    });
+                } else {
+                    key_data_to_template.cands.push({
+                        "name": "No results",
+                        "color": "white",
+                        "border": "#aaa"
+                    });
+                }
+            });
+
+            $("#key").html(key_template(key_data_to_template));
+
+            _.each(gmap.polygons, function(d) {
+                var record = fetchResults(d.fips, party);
+                    var winner = _.max(record.candidates, function(d) { return d.votes; } );
+                    var color;
+                    if (record.isTie) {
+                        color = "#000000";
+                    }
+                    else if (record.totalvotes < 1) {
+                        color = "#ffffff";
+                    }
+                    else {
+                        color = colors[winner.name];
+                    }
+                    var to_template = {
+                        results: {
+                            county: record.countyname,
+                            totalvotes: record.totalvotes,
+                            candidates: _.sortBy(record.candidates, function(d) { return d.votes; }).reverse()
+                        }
+                    };
+                    d.setOptions({
+                        fillColor: color,
+                        fillOpacity: (winner.votes / record.totalvotes) * 1.25,
+                        data: to_template
+                    });
+            });
+
+
+
+
+
+
+
+
+
+
             // hide loading indicator
             $('#loading').html('');
         }
-
-
 
         });
         });
