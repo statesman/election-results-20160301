@@ -3,10 +3,22 @@
 // ... and then decorate it with Statesman styles
 @import 'custom-bootstrap/variables.less';
 
-//@import "../../bower_components/font-awesome/less/font-awesome";
+@import "../../bower_components/font-awesome/less/font-awesome";
 
 @import "header";
 @import "footer";
 @import "type";
 @import "utils";
 @import "project";
+
+.container {
+  @media (min-width: @screen-sm-min) {
+    padding-left: 75px;
+    padding-right: 75px;
+  }
+}
+
+article.container {
+  background: white;
+}
+
