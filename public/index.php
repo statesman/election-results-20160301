@@ -66,8 +66,9 @@
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="./">Home <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Link</a></li>
+        <li class="active"><a href="./">Travis precincts <span class="sr-only">(current)</span></a></li>
+        <li><a href="county-results/">President by county</a></li>
+        <li><a href="http://www.statesman.com/s/elections-guide/#central-texas-results" target="_blank">More election coverage</a></li>
         <li class="visible-xs small-social"><a target="_blank" href="https://www.facebook.com/sharer.php?u=<?php echo urlencode($meta['url']); ?>"><i class="fa fa-facebook-square"></i></a><a target="_blank" href="https://twitter.com/intent/tweet?url=<?php echo urlencode($meta['url']); ?>&via=<?php print urlencode($meta['twitter']); ?>&text=<?php print urlencode($meta['title']); ?>"><i class="fa fa-twitter"></i></a><a target="_blank" href="https://plus.google.com/share?url=<?php echo urlencode($meta['url']); ?>"><i class="fa fa-google-plus"></i></a></li>
       </ul>
         <ul class="nav navbar-nav navbar-right social hidden-xs">
@@ -80,11 +81,11 @@
 </nav>
 
   <article class="container">
-
+  <br>
     <div class="row">
       <div class="col-xs-12 interactive-header">
-        <h4>2016 elections</h4>
-        <h2 class="page-title">Travis county precinct-by-precinct results</h2>
+        <h4>2016 Texas Primary</h4>
+        <h1 class="page-title">Travis county precinct-by-precinct results</h1>
         <p class="author">Interactive by Christian McDonald and Cody Winchester, Austin American-Statesman</p>
         <p>Use the dropdown to see the highest vote-getter in a race in a Travis county precinct in the March 1 primary election. Roll your cursor over each precinct on the map to see votes for all candidates in the selected race. Hover over a candidate's name in the map legend to see his or her support in each precinct.</p>
       </div>
