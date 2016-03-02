@@ -143,7 +143,7 @@ module.exports = function(grunt) {
           authKey: 'cmg'
         },
         src: 'public',
-        dest: '/stage_aas/projects/databases/election-map-20151103/',
+        dest: '/stage_aas/projects/databases/election-map-20160301/',
         exclusions: ['dist/tmp','Thumbs.db','.DS_Store'],
         simple: false,
         useList: false
@@ -156,7 +156,7 @@ module.exports = function(grunt) {
           authKey: 'cmg'
         },
         src: 'public',
-        dest: '/prod_aas/projects/databases/election-map-20151103/',
+        dest: '/prod_aas/projects/databases/election-map-20160301/',
         exclusions: ['dist/tmp','Thumbs.db','.DS_Store'],
         simple: false,
         useList: false
@@ -172,10 +172,10 @@ module.exports = function(grunt) {
           icon_url: 'http://vermilion1.github.io/presentations/grunt/images/grunt-logo.png'
         },
         stage: {
-          text: 'Project published to stage: http://stage.host.coxmediagroup.com/aas/projects/databases/election-map-20151103/ {{message}}'
+          text: 'Project published to stage: http://stage.host.coxmediagroup.com/aas/projects/databases/election-map-20160301/ {{message}}'
         },
         prod: {
-          text: 'Project published to prod: http://projects.statesman.com/ {{message}}'
+          text: 'Project published to prod: http://projects.statesman.comdatabases/election-map-20160301/ {{message}}'
         }
     }
 

@@ -5,12 +5,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <?php
   $meta = array(
-    "title" => "Travis County November 3, 2015 election results by precinct  | Statesman.com",
-    "description" => "Precinct-level results for the Novemer 3, 2015 election.",
-    "thumbnail" => "http://projects.statesman.com/election-results-20151103/assets/share.png", // needs update
+    "title" => "Travis County March 1, 2016 primary election results by precinct  | Statesman.com",
+    "description" => "Precinct-level results for the March 1, 2016 election.",
+    "thumbnail" => "http://projects.statesman.com/election-results-20160301/assets/share.png", // needs update
     "shortcut_icon" => "http://media.cmgdigital.com/shared/theme-assets/242014/www.statesman.com_5126cb2068bd43d1ab4e17660ac48255.ico",
     "apple_touch_icon" => "http://media.cmgdigital.com/shared/theme-assets/242014/www.statesman.com_fa2d2d6e73614535b997734c7e7d2287.png",
-    "url" => "http://projects.statesman.com/databases/election-results-20151103/",
+    "url" => "http://projects.statesman.com/databases/election-results-20160301/",
     "twitter" => "statesman"
   );
 ?>
@@ -82,10 +82,10 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12 header">
-        <h4>2015 elections</h4>
+        <h4>2016 elections</h4>
         <h2 class="page-title">Travis county precinct-by-precinct results</h2>
-        <p><small>Interactive by Christian McDonald and Andrew Chavez, Austin American-Statesman</small></p>
-        <p>Use the dropdown to see the highest vote-getter in a race in a Travis county precinct in the Nov. 3 general election. Roll your cursor over each precinct on the map to see votes for all candidates in the selected race. Hover over a candidate's name in the map legend to see his or her support in each precinct. Williamson county totals are not included.</p>
+        <p><small>Interactive by Christian McDonald and Cody Winchester Austin American-Statesman</small></p>
+        <p>Use the dropdown to see the highest vote-getter in a race in a Travis county precinct in the March 1 primary election. Roll your cursor over each precinct on the map to see votes for all candidates in the selected race. Hover over a candidate's name in the map legend to see his or her support in each precinct. Williamson county totals are not included.</p>
       </div>
 
       <div class="form-group clearfix">

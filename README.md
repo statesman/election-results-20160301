@@ -76,3 +76,9 @@ I then used regex on that to create `contest_selects_travis.txt`, which is forma
 ### Creating the JSON files
 
 The script `races.py` walks through the `results/travis.csv` and and `results/williamson.csv` files to combine them. I took the contents of my `contest_titles_travis_py.csv` file and replaced what was at the bottom of `races.py` and then ran the python script. (It did fail first when I didn't have a `williamson.csv` file it expected.)
+
+### Updating index.php
+
+I had to sub in the `contest_selects_travis.txt` info into this file, rearranging it to make sense.
+
+
