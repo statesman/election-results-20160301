@@ -82,10 +82,10 @@
   <article class="container">
 
     <div class="row">
-      <div class="col-xs-12 header">
+      <div class="col-xs-12 interactive-header">
         <h4>2016 elections</h4>
         <h2 class="page-title">Travis county precinct-by-precinct results</h2>
-        <p><small>Interactive by Christian McDonald and Cody Winchester, Austin American-Statesman</small></p>
+        <p class="author">Interactive by Christian McDonald and Cody Winchester, Austin American-Statesman</p>
         <p>Use the dropdown to see the highest vote-getter in a race in a Travis county precinct in the March 1 primary election. Roll your cursor over each precinct on the map to see votes for all candidates in the selected race. Hover over a candidate's name in the map legend to see his or her support in each precinct.</p>
       </div>
 
@@ -218,6 +218,7 @@
       </div>
     </div>
   </div>
+  <br>
 
   </article>
 
