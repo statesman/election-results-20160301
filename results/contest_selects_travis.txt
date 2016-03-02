@@ -1,0 +1,92 @@
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="p-d">PRESIDENT - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="rd35-d">DISTRICT 35, UNITED STATES REPRESENTATIVE - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="rc-d">RAILROAD COMMISSIONER - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="scj3-d">PLACE 3, JUSTICE, SUPREME COURT - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="scj5-d">PLACE 5, JUSTICE, SUPREME COURT - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="scj9-d">PLACE 9, JUSTICE, SUPREME COURT - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="caj2-d">PLACE 2, JUDGE, COURT OF CRIMINAL APPEALS - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="caj5-d">PLACE 5, JUDGE, COURT OF CRIMINAL APPEALS - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="caj6-d">PLACE 6, JUDGE, COURT OF CRIMINAL APPEALS - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="sboe5-d">DISTRICT 5, MEMBER, STATE BOARD OF EDUCATION - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="sr51-d">DISTRICT 51, STATE REPRESENTATIVE - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="dj53-d">DISTRICT JUDGE, 53RD JUDICIAL DISTRICT - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="dj98-d">DISTRICT JUDGE, 98TH JUDICIAL DISTRICT - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="dj126-d">DISTRICT JUDGE, 126TH JUDICIAL DISTRICT - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="dj167-d">DISTRICT JUDGE, 167TH JUDICIAL DISTRICT - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="dj200-d">DISTRICT JUDGE, 200TH JUDICIAL DISTRICT - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="dj345-d">DISTRICT JUDGE, 345TH JUDICIAL DISTRICT - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="dj353-d">DISTRICT JUDGE, 353RD JUDICIAL DISTRICT - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="dj390-d">DISTRICT JUDGE, 390TH JUDICIAL DISTRICT - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="dj427-d">DISTRICT JUDGE, 427TH JUDICIAL DISTRICT - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="dj450-d">DISTRICT JUDGE, 450TH JUDICIAL DISTRICT - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="da53-d">DISTRICT ATTORNEY, 53RD JUDICIAL DISTRICT - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="ccj8-d">JUDGE, COUNTY CRIMINAL COURT NO. 8 - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="ccj9-d">JUDGE, COUNTY CRIMINAL COURT NO. 9 - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="ca-d">COUNTY ATTORNEY - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="s-d">SHERIFF - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="tac-d">TAX ASSESSOR-COLLECTOR - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="cc1-d">PRECINCT NO. 1, COUNTY COMMISSIONER - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="c1-d">PRECINCT NO. 1, CONSTABLE - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="chair-d">COUNTY CHAIRMAN - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="r1-d">REFERENDUM ITEM #1 - ON ECONOMIC SECURITY & PROSPERITY</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="r2-d">REFERENDUM ITEM #2 - ON A FAIR CRIMINAL JUSTICE SYSTEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="r3-d">REFERENDUM ITEM #3 - ON CLIMATE</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="r4-d">REFERENDUM ITEM #4 - ON THE VOTING RIGHTS ACT</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="r5-d">REFERENDUM ITEM #5 - ON CAMPUS CARRY</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="r6-d">REFERENDUM ITEM #6 - ON COMPREHENSIVE IMMIGRATION REFORM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="usr17-d">DISTRICT 17, UNITED STATES REPRESENTATIVE - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="sboe10-d">DISTRICT 10, MEMBER, STATE BOARD OF EDUCATION - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="sr50-d">DISTRICT 50, STATE REPRESENTATIVE - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="usr10-d">DISTRICT 10, UNITED STATES REPRESENTATIVE - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="c2-d">PRECINCT NO. 2, CONSTABLE - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="sr46-d">DISTRICT 46, STATE REPRESENTATIVE - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="c4-d">PRECINCT NO. 4, CONSTABLE - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="usr25-d">DISTRICT 25, UNITED STATES REPRESENTATIVE - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="pc129">PRECINCT 129, PRECINCT CHAIRMAN</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="c5-d">PRECINCT NO. 5, CONSTABLE - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="ss21-d">DISTRICT 21, STATE SENATOR - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="sr49-d">DISTRICT 49, STATE REPRESENTATIVE - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="sr48-d">DISTRICT 48, STATE REPRESENTATIVE - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="c3-d">PRECINCT NO. 3, CONSTABLE - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="sr47-d">DISTRICT 47, STATE REPRESENTATIVE - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="usr21-d">DISTRICT 21, UNITED STATES REPRESENTATIVE - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="cc3-d">PRECINCT NO. 3, COUNTY COMMISSIONER - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="ss24-d">DISTRICT 24, STATE SENATOR - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="pc433">PRECINCT 433, PRECINCT CHAIRMAN</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="p-r">PRESIDENT - REP</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="usr35-r">DISTRICT 35, UNITED STATES REPRESENTATIVE - REP</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="rc-r">RAILROAD COMMISSIONER - REP</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="scj3-r">PLACE 3, JUSTICE, SUPREME COURT - REP</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="scj5-r">PLACE 5, JUSTICE, SUPREME COURT - REP</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="scj9-r">PLACE 9, JUSTICE, SUPREME COURT - REP</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="caj2-r">PLACE 2, JUDGE, COURT OF CRIMINAL APPEALS - REP</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="caj5-r">PLACE 5, JUDGE, COURT OF CRIMINAL APPEALS - REP</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="caj6-r">PLACE 6, JUDGE, COURT OF CRIMINAL APPEALS - REP</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="sboe5-r">DISTRICT 5, MEMBER, STATE BOARD OF EDUCATION - REP</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="3caj2-r">PLACE 2, JUSTICE, 3RD COURT OF APPEALS DISTRICT - REP</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="3caj4-r">PLACE 4, JUSTICE, 3RD COURT OF APPEALS DISTRICT - REP</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="dj450-r">DISTRICT JUDGE, 450TH JUDICIAL DISTRICT - REP</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="da53-r">DISTRICT ATTORNEY, 53RD JUDICIAL DISTRICT - REP</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="s-r">SHERIFF - REP</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="cc1-r">PRECINCT NO. 1, COUNTY COMMISSIONER - REP</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="chair-r">COUNTY CHAIRMAN - REP</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="p1-r">PROPOSITION 1</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="p2-r">PROPOSITION 2</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="p3-r">PROPOSITION 3</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="p4-r">PROPOSITION 4</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="usr17-r">DISTRICT 17, UNITED STATES REPRESENTATIVE - REP</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="sboe10-r">DISTRICT 10, MEMBER, STATE BOARD OF EDUCATION - REP</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="sr50-r">DISTRICT 50, STATE REPRESENTATIVE - REP</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="usr10-r">DISTRICT 10, UNITED STATES REPRESENTATIVE - REP</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="c2-r">PRECINCT NO. 2, CONSTABLE - REP</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="sr46-r">DISTRICT 46, STATE REPRESENTATIVE - REP</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="usr25-r">DISTRICT 25, UNITED STATES REPRESENTATIVE - REP</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="sr47-r">DISTRICT 47, STATE REPRESENTATIVE - REP</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="usr21-r">DISTRICT 21, UNITED STATES REPRESENTATIVE - REP</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="cc3-r">PRECINCT NO. 3, COUNTY COMMISSIONER - REP</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="ss24-r">DISTRICT 24, STATE SENATOR - REP</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="pc308-r">PRECINCT 308, PRECINCT CHAIRMAN</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="pc312-r">PRECINCT 312, PRECINCT CHAIRMAN</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="pc316-r">PRECINCT 316, PRECINCT CHAIRMAN</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="pc334-r">PRECINCT 334, PRECINCT CHAIRMAN</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="pc429-r">PRECINCT 429, PRECINCT CHAIRMAN</option>

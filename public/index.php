@@ -5,12 +5,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <?php
   $meta = array(
-    "title" => "Travis County November 3, 2015 election results by precinct  | Statesman.com",
-    "description" => "Precinct-level results for the Novemer 3, 2015 election.",
-    "thumbnail" => "http://projects.statesman.com/election-results-20151103/assets/share.png", // needs update
+    "title" => "Travis County March 1, 2016 primary election results by precinct  | Statesman.com",
+    "description" => "Precinct-level results for the March 1, 2016 election.",
+    "thumbnail" => "http://projects.statesman.com/election-results-20160301/assets/share.png", // needs update
     "shortcut_icon" => "http://media.cmgdigital.com/shared/theme-assets/242014/www.statesman.com_5126cb2068bd43d1ab4e17660ac48255.ico",
     "apple_touch_icon" => "http://media.cmgdigital.com/shared/theme-assets/242014/www.statesman.com_fa2d2d6e73614535b997734c7e7d2287.png",
-    "url" => "http://projects.statesman.com/databases/election-results-20151103/",
+    "url" => "http://projects.statesman.com/databases/election-results-20160301/",
     "twitter" => "statesman"
   );
 ?>
@@ -82,60 +82,122 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12 header">
-        <h4>2015 elections</h4>
+        <h4>2016 elections</h4>
         <h2 class="page-title">Travis county precinct-by-precinct results</h2>
-        <p><small>Interactive by Christian McDonald and Andrew Chavez, Austin American-Statesman</small></p>
-        <p>Use the dropdown to see the highest vote-getter in a race in a Travis county precinct in the Nov. 3 general election. Roll your cursor over each precinct on the map to see votes for all candidates in the selected race. Hover over a candidate's name in the map legend to see his or her support in each precinct. Williamson county totals are not included.</p>
+        <p><small>Interactive by Christian McDonald and Cody Winchester Austin American-Statesman</small></p>
+        <p>Use the dropdown to see the highest vote-getter in a race in a Travis county precinct in the March 1 primary election. Roll your cursor over each precinct on the map to see votes for all candidates in the selected race. Hover over a candidate's name in the map legend to see his or her support in each precinct. Williamson county totals are not included.</p>
       </div>
 
       <div class="form-group clearfix">
         <div class="col-lg-6">
           <label for="race" class="control-label">Choose a race:</label>
            <select class="form-control" id="race" name="race">
-            <optgroup label="Travis County">
-                <option data-zoom="-1" data-center="30.329632, -97.758797" value="tr-bond">TRAVIS COUNTY BOND PROPOSITION, TRAVIS COUNTY BOND ELECTION</option>
+            <optgroup label="National">
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="p-d">PRESIDENT - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="p-r">PRESIDENT - REP</option>
+<option data-zoom="+1" data-center="30.372542, -97.652969" value="usr10-d">DISTRICT 10, UNITED STATES REPRESENTATIVE - DEM</option>
+<option data-zoom="+1" data-center="30.372542, -97.652969" value="usr10-r">DISTRICT 10, UNITED STATES REPRESENTATIVE - REP</option>
+<option data-zoom="+1" data-center="30.329632, -97.758797" value="usr17-d">DISTRICT 17, UNITED STATES REPRESENTATIVE - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="usr17-r">DISTRICT 17, UNITED STATES REPRESENTATIVE - REP</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="usr21-d">DISTRICT 21, UNITED STATES REPRESENTATIVE - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="usr21-r">DISTRICT 21, UNITED STATES REPRESENTATIVE - REP</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="usr25-d">DISTRICT 25, UNITED STATES REPRESENTATIVE - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="usr25-r">DISTRICT 25, UNITED STATES REPRESENTATIVE - REP</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="usr35-d">DISTRICT 35, UNITED STATES REPRESENTATIVE - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="usr35-r">DISTRICT 35, UNITED STATES REPRESENTATIVE - REP</option>
             </optgroup>
-            <optgroup label="State amendments">
-                <option data-zoom="-1" data-center="30.329632, -97.758797" value="ca-01">PROP. 1, CONSTITUTIONAL AMENDMENT ELECTION</option>
-                <option data-zoom="-1" data-center="30.329632, -97.758797" value="ca-02">PROP. 2, CONSTITUTIONAL AMENDMENT ELECTION</option>
-                <option data-zoom="-1" data-center="30.329632, -97.758797" value="ca-03">PROP. 3, CONSTITUTIONAL AMENDMENT ELECTION</option>
-                <option data-zoom="-1" data-center="30.329632, -97.758797" value="ca-04">PROP. 4, CONSTITUTIONAL AMENDMENT ELECTION</option>
-                <option data-zoom="-1" data-center="30.329632, -97.758797" value="ca-05">PROP. 5, CONSTITUTIONAL AMENDMENT ELECTION</option>
-                <option data-zoom="-1" data-center="30.329632, -97.758797" value="ca-06">PROP. 6, CONSTITUTIONAL AMENDMENT ELECTION</option>
-                <option data-zoom="-1" data-center="30.329632, -97.758797" value="ca-07">PROP. 7, CONSTITUTIONAL AMENDMENT ELECTION</option>
+            <optgroup label="State races">
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="ss21-d">DISTRICT 21, STATE SENATOR - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="ss24-d">DISTRICT 24, STATE SENATOR - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="ss24-r">DISTRICT 24, STATE SENATOR - REP</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="sr46-d">DISTRICT 46, STATE REPRESENTATIVE - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="sr46-r">DISTRICT 46, STATE REPRESENTATIVE - REP</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="sr47-d">DISTRICT 47, STATE REPRESENTATIVE - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="sr47-r">DISTRICT 47, STATE REPRESENTATIVE - REP</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="sr48-d">DISTRICT 48, STATE REPRESENTATIVE - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="sr49-d">DISTRICT 49, STATE REPRESENTATIVE - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="sr50-d">DISTRICT 50, STATE REPRESENTATIVE - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="sr50-r">DISTRICT 50, STATE REPRESENTATIVE - REP</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="sr51-d">DISTRICT 51, STATE REPRESENTATIVE - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="rc-d">RAILROAD COMMISSIONER - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="rc-r">RAILROAD COMMISSIONER - REP</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="sboe5-d">DISTRICT 5, MEMBER, STATE BOARD OF EDUCATION - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="sboe5-r">DISTRICT 5, MEMBER, STATE BOARD OF EDUCATION - REP</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="sboe10-d">DISTRICT 10, MEMBER, STATE BOARD OF EDUCATION - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="sboe10-r">DISTRICT 10, MEMBER, STATE BOARD OF EDUCATION - REP</option>
             </optgroup>
-            <optgroup label="Individual cities">
-                <option data-zoom="+2" data-center="30.458022, -97.613120" value="pf-p3">COUNCIL MEMBER, PLACE 3, CITY OF PFLUGERVILLE</option>
-                <option data-zoom="+2" data-center="30.458022, -97.613120" value="pf-p5">COUNCIL MEMBER, PLACE 5, CITY OF PFLUGERVILLE</option>
-                <option data-zoom="+2" data-center="30.458022, -97.613120" value="pf-p01">PROP. 1, CITY OF PFLUGERVILLE</option>
-                <option data-zoom="+2" data-center="30.458022, -97.613120" value="pf-p02">PROP. 2, CITY OF PFLUGERVILLE</option>
-                <option data-zoom="+1" data-center="30.347887, -97.486435" value="wb-p01">PROPOSITION, VILLAGE OF WEBBERVILLE</option>
-                <option data-zoom="+2" data-center="30.274056, -97.811662" value="wb-library">BOARD OF TRUSTEE, WESTBANK COMMUNITY LIBRARY DISTRICT</option>
-                <option data-zoom="+2" data-center="30.226140, -97.815576" value="sv-council">CITY COUNCIL, CITY OF SUNSET VALLEY</option>
-                <option data-zoom="+2" data-center="30.226140, -97.815576" value="sv-p01">PROPOSITION 1, CITY OF SUNSET VALLEY</option>
-                <option data-zoom="+1" data-center="30.461191, -97.989763" value="lv-mayor">MAYOR, CITY OF LAGO VISTA</option>
-                <option data-zoom="+1" data-center="30.461191, -97.989763" value="lv-cc01">COUNCIL MEMBER, PLACE 1, CITY OF LAGO VISTA</option>
-                <option data-zoom="+1" data-center="30.461191, -97.989763" value="lv-cc03">COUNCIL MEMBER, PLACE 3, CITY OF LAGO VISTA</option>
-                <option data-zoom="+1" data-center="30.461191, -97.989763" value="lv-cc05">COUNCIL MEMBER, PLACE 5, CITY OF LAGO VISTA</option>
-                <option data-zoom="+1" data-center="30.461191, -97.989763" value="lv-p01">PROPOSITION 1, CITY OF LAGO VISTA</option>
-                <option data-zoom="+1" data-center="30.461191, -97.989763" value="lv-p02">PROPOSITION 2, CITY OF LAGO VISTA</option>
-                <option data-zoom="+1" data-center="30.461191, -97.989763" value="lv-p03">PROPOSITION 3, CITY OF LAGO VISTA</option>
-                <option data-zoom="+1" data-center="30.461191, -97.989763" value="lv-p04">PROPOSITION 4, CITY OF LAGO VISTA</option>
-                <option data-zoom="+1" data-center="30.461191, -97.989763" value="lv-p05">PROPOSITION 5, CITY OF LAGO VISTA</option>
-                <option data-zoom="+1" data-center="30.461191, -97.989763" value="lv-p06">PROPOSITION 6, CITY OF LAGO VISTA</option>
-                <option data-zoom="+1" data-center="30.461191, -97.989763" value="lv-p07">PROPOSITION 7, CITY OF LAGO VISTA</option>
-                <option data-zoom="+1" data-center="30.461191, -97.989763" value="lv-p08">PROPOSITION 8, CITY OF LAGO VISTA</option>
-                <option data-zoom="+1" data-center="30.461191, -97.989763" value="lv-p09">PROPOSITION 9, CITY OF LAGO VISTA</option>
-                <option data-zoom="+1" data-center="30.461191, -97.989763" value="j-mayor">MAYOR, CITY OF JONESTOWN</option>
-                <option data-zoom="+1" data-center="30.461191, -97.989763" value="j-ap1">ALDERMAN, PLACE 1, CITY OF JONESTOWN</option>
-                <option data-zoom="+1" data-center="30.461191, -97.989763" value="j-ap2">ALDERMAN, PLACE 2, CITY OF JONESTOWN</option>
-                <option data-zoom="+2" data-center="30.503471, -97.902008" value="cp-p01">PROP. 1, CITY OF CEDAR PARK</option>
-                <option data-zoom="+2" data-center="30.503471, -97.902008" value="cp-p02">PROP. 2, CITY OF CEDAR PARK</option>
-                <option data-zoom="+2" data-center="30.503471, -97.902008" value="cp-p03">PROP. 3, CITY OF CEDAR PARK</option>
-                <option data-zoom="+2" data-center="30.503471, -97.902008" value="cp-p04">PROP. 4, CITY OF CEDAR PARK</option>
-                <option data-zoom="+2" data-center="30.437719, -97.975931" value="pv-mayor">MAYOR, VILLAGE OF POINT VENTURE</option>
-                <option data-zoom="+2" data-center="30.461401, -97.888092" value="v-council">VILLAGE COUNCIL, VILLAGE OF VOLENTE</option>
-            </optgroup>
+            <optgroup label="Judicial races">
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="scj3-d">PLACE 3, JUSTICE, SUPREME COURT - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="scj3-r">PLACE 3, JUSTICE, SUPREME COURT - REP</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="scj5-d">PLACE 5, JUSTICE, SUPREME COURT - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="scj5-r">PLACE 5, JUSTICE, SUPREME COURT - REP</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="scj9-d">PLACE 9, JUSTICE, SUPREME COURT - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="scj9-r">PLACE 9, JUSTICE, SUPREME COURT - REP</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="caj2-d">PLACE 2, JUDGE, COURT OF CRIMINAL APPEALS - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="caj2-r">PLACE 2, JUDGE, COURT OF CRIMINAL APPEALS - REP</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="caj5-d">PLACE 5, JUDGE, COURT OF CRIMINAL APPEALS - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="caj5-r">PLACE 5, JUDGE, COURT OF CRIMINAL APPEALS - REP</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="caj6-d">PLACE 6, JUDGE, COURT OF CRIMINAL APPEALS - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="caj6-r">PLACE 6, JUDGE, COURT OF CRIMINAL APPEALS - REP</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="3caj2-r">PLACE 2, JUSTICE, 3RD COURT OF APPEALS DISTRICT - REP</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="3caj4-r">PLACE 4, JUSTICE, 3RD COURT OF APPEALS DISTRICT - REP</option>
+           </optgroup>
+           <optgroup label="County races">
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="cc1-d">PRECINCT NO. 1, COUNTY COMMISSIONER - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="cc1-r">PRECINCT NO. 1, COUNTY COMMISSIONER - REP</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="cc3-d">PRECINCT NO. 3, COUNTY COMMISSIONER - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="cc3-r">PRECINCT NO. 3, COUNTY COMMISSIONER - REP</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="da53-d">DISTRICT ATTORNEY, 53RD JUDICIAL DISTRICT - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="da53-r">DISTRICT ATTORNEY, 53RD JUDICIAL DISTRICT - REP</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="dj53-d">DISTRICT JUDGE, 53RD JUDICIAL DISTRICT - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="dj98-d">DISTRICT JUDGE, 98TH JUDICIAL DISTRICT - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="dj126-d">DISTRICT JUDGE, 126TH JUDICIAL DISTRICT - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="dj167-d">DISTRICT JUDGE, 167TH JUDICIAL DISTRICT - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="dj200-d">DISTRICT JUDGE, 200TH JUDICIAL DISTRICT - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="dj345-d">DISTRICT JUDGE, 345TH JUDICIAL DISTRICT - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="dj353-d">DISTRICT JUDGE, 353RD JUDICIAL DISTRICT - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="dj390-d">DISTRICT JUDGE, 390TH JUDICIAL DISTRICT - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="dj427-d">DISTRICT JUDGE, 427TH JUDICIAL DISTRICT - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="dj450-d">DISTRICT JUDGE, 450TH JUDICIAL DISTRICT - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="dj450-r">DISTRICT JUDGE, 450TH JUDICIAL DISTRICT - REP</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="s-d">SHERIFF - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="s-r">SHERIFF - REP</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="tac-d">TAX ASSESSOR-COLLECTOR - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="ccj8-d">JUDGE, COUNTY CRIMINAL COURT NO. 8 - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="ccj9-d">JUDGE, COUNTY CRIMINAL COURT NO. 9 - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="ca-d">COUNTY ATTORNEY - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="chair-d">COUNTY CHAIRMAN - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="chair-r">COUNTY CHAIRMAN - REP</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="c1-d">PRECINCT NO. 1, CONSTABLE - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="c2-d">PRECINCT NO. 2, CONSTABLE - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="c2-r">PRECINCT NO. 2, CONSTABLE - REP</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="c3-d">PRECINCT NO. 3, CONSTABLE - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="c4-d">PRECINCT NO. 4, CONSTABLE - DEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="c5-d">PRECINCT NO. 5, CONSTABLE - DEM</option>
+           </optgroup>
+           <optgroup label="Democratic party races">
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="r1-d">REFERENDUM ITEM #1 - ON ECONOMIC SECURITY & PROSPERITY</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="r2-d">REFERENDUM ITEM #2 - ON A FAIR CRIMINAL JUSTICE SYSTEM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="r3-d">REFERENDUM ITEM #3 - ON CLIMATE</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="r4-d">REFERENDUM ITEM #4 - ON THE VOTING RIGHTS ACT</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="r5-d">REFERENDUM ITEM #5 - ON CAMPUS CARRY</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="r6-d">REFERENDUM ITEM #6 - ON COMPREHENSIVE IMMIGRATION REFORM</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="pc433">PRECINCT 433, PRECINCT CHAIRMAN</option>
+
+           </optgroup>
+           <optgroup label="Republican party races">
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="p1-r">PROPOSITION 1</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="p2-r">PROPOSITION 2</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="p3-r">PROPOSITION 3</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="p4-r">PROPOSITION 4</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="pc129">PRECINCT 129, PRECINCT CHAIRMAN</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="pc308-r">PRECINCT 308, PRECINCT CHAIRMAN</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="pc312-r">PRECINCT 312, PRECINCT CHAIRMAN</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="pc316-r">PRECINCT 316, PRECINCT CHAIRMAN</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="pc334-r">PRECINCT 334, PRECINCT CHAIRMAN</option>
+<option data-zoom="-1" data-center="30.329632, -97.758797" value="pc429-r">PRECINCT 429, PRECINCT CHAIRMAN</option>
+
+           </optgroup>
           </select>
         </div>
         <div class="col-lg-6">
