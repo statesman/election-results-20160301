@@ -145,7 +145,7 @@ module.exports = function(grunt) {
         src: 'public',
         dest: '/stage_aas/projects/databases/election-map-20160301/',
         exclusions: ['dist/tmp','Thumbs.db','.DS_Store'],
-        simple: false,
+        simple: true,
         useList: false
       },
       // prod path will need to change
@@ -158,7 +158,7 @@ module.exports = function(grunt) {
         src: 'public',
         dest: '/prod_aas/projects/databases/election-map-20160301/',
         exclusions: ['dist/tmp','Thumbs.db','.DS_Store'],
-        simple: false,
+        simple: true,
         useList: false
       }
     },
@@ -175,7 +175,7 @@ module.exports = function(grunt) {
           text: 'Project published to stage: http://stage.host.coxmediagroup.com/aas/projects/databases/election-map-20160301/ {{message}}'
         },
         prod: {
-          text: 'Project published to prod: http://projects.statesman.comdatabases/election-map-20160301/ {{message}}'
+          text: 'Project published to prod: http://projects.statesman.com/databases/election-map-20160301/ {{message}}'
         }
     }
 

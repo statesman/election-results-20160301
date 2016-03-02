@@ -7,10 +7,10 @@
   $meta = array(
     "title" => "Travis County March 1, 2016 primary election results by precinct  | Statesman.com",
     "description" => "Precinct-level results for the March 1, 2016 election.",
-    "thumbnail" => "http://projects.statesman.com/election-results-20160301/assets/share.png", // needs update
-    "shortcut_icon" => "http://media.cmgdigital.com/shared/theme-assets/242014/www.statesman.com_5126cb2068bd43d1ab4e17660ac48255.ico",
+    "thumbnail" => "http://projects.statesman.com/databases/election-map-20160301/assets/social-share.png", // needs update
+    "shortcut_icon" => "http://media.cmgdigital.com/shared/media/2015-11-16-11-32-05/web/site/www_mystatesman_com/images/favicon.ico",
     "apple_touch_icon" => "http://media.cmgdigital.com/shared/theme-assets/242014/www.statesman.com_fa2d2d6e73614535b997734c7e7d2287.png",
-    "url" => "http://projects.statesman.com/databases/election-results-20160301/",
+    "url" => "http://projects.statesman.com/databases/election-map-20160301/",
     "twitter" => "statesman"
   );
 ?>
@@ -85,7 +85,7 @@
         <h4>2016 elections</h4>
         <h2 class="page-title">Travis county precinct-by-precinct results</h2>
         <p><small>Interactive by Christian McDonald and Cody Winchester, Austin American-Statesman</small></p>
-        <p>Use the dropdown to see the highest vote-getter in a race in a Travis county precinct in the March 1 primary election. Roll your cursor over each precinct on the map to see votes for all candidates in the selected race. Hover over a candidate's name in the map legend to see his or her support in each precinct. Williamson county totals are not included.</p>
+        <p>Use the dropdown to see the highest vote-getter in a race in a Travis county precinct in the March 1 primary election. Roll your cursor over each precinct on the map to see votes for all candidates in the selected race. Hover over a candidate's name in the map legend to see his or her support in each precinct.</p>
       </div>
 
       <div class="form-group clearfix">
@@ -143,10 +143,10 @@
 <option data-zoom="-1" data-center="30.329632, -97.758797" value="3caj4-r">PLACE 4, JUSTICE, 3RD COURT OF APPEALS DISTRICT - REP</option>
            </optgroup>
            <optgroup label="County races">
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="cc1-d">PRECINCT NO. 1, COUNTY COMMISSIONER - DEM</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="cc1-r">PRECINCT NO. 1, COUNTY COMMISSIONER - REP</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="cc3-d">PRECINCT NO. 3, COUNTY COMMISSIONER - DEM</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="cc3-r">PRECINCT NO. 3, COUNTY COMMISSIONER - REP</option>
+<option data-zoom="+1" data-center="30.350697, -97.528060" value="cc1-d">PRECINCT NO. 1, COUNTY COMMISSIONER - DEM</option>
+<option data-zoom="+1" data-center="30.350697, -97.528060" value="cc1-r">PRECINCT NO. 1, COUNTY COMMISSIONER - REP</option>
+<option data-zoom="+1" data-center="30.402323, -97.929113" value="cc3-d">PRECINCT NO. 3, COUNTY COMMISSIONER - DEM</option>
+<option data-zoom="+1" data-center="30.402323, -97.929113" value="cc3-r">PRECINCT NO. 3, COUNTY COMMISSIONER - REP</option>
 <option data-zoom="-1" data-center="30.329632, -97.758797" value="da53-d">DISTRICT ATTORNEY, 53RD JUDICIAL DISTRICT - DEM</option>
 <option data-zoom="-1" data-center="30.329632, -97.758797" value="da53-r">DISTRICT ATTORNEY, 53RD JUDICIAL DISTRICT - REP</option>
 <option data-zoom="-1" data-center="30.329632, -97.758797" value="dj53-d">DISTRICT JUDGE, 53RD JUDICIAL DISTRICT - DEM</option>
@@ -168,12 +168,12 @@
 <option data-zoom="-1" data-center="30.329632, -97.758797" value="ca-d">COUNTY ATTORNEY - DEM</option>
 <option data-zoom="-1" data-center="30.329632, -97.758797" value="chair-d">COUNTY CHAIRMAN - DEM</option>
 <option data-zoom="-1" data-center="30.329632, -97.758797" value="chair-r">COUNTY CHAIRMAN - REP</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="c1-d">PRECINCT NO. 1, CONSTABLE - DEM</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="c2-d">PRECINCT NO. 2, CONSTABLE - DEM</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="c2-r">PRECINCT NO. 2, CONSTABLE - REP</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="c3-d">PRECINCT NO. 3, CONSTABLE - DEM</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="c4-d">PRECINCT NO. 4, CONSTABLE - DEM</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="c5-d">PRECINCT NO. 5, CONSTABLE - DEM</option>
+<option data-zoom="+1" data-center="30.350697, -97.528060" value="c1-d">PRECINCT NO. 1, CONSTABLE - DEM</option>
+<option data-zoom="0" data-center="30.480208, -97.777208" value="c2-d">PRECINCT NO. 2, CONSTABLE - DEM</option>
+<option data-zoom="0" data-center="30.480208, -97.777208" value="c2-r">PRECINCT NO. 2, CONSTABLE - REP</option>
+<option data-zoom="0" data-center="30.309475, -97.945225" value="c3-d">PRECINCT NO. 3, CONSTABLE - DEM</option>
+<option data-zoom="+1" data-center="30.157849, -97.719668" value="c4-d">PRECINCT NO. 4, CONSTABLE - DEM</option>
+<option data-zoom="+1" data-center="30.305004, -97.755343" value="c5-d">PRECINCT NO. 5, CONSTABLE - DEM</option>
            </optgroup>
            <optgroup label="Democratic party races">
 <option data-zoom="-1" data-center="30.329632, -97.758797" value="r1-d">REFERENDUM ITEM #1 - ON ECONOMIC SECURITY & PROSPERITY</option>
@@ -182,7 +182,7 @@
 <option data-zoom="-1" data-center="30.329632, -97.758797" value="r4-d">REFERENDUM ITEM #4 - ON THE VOTING RIGHTS ACT</option>
 <option data-zoom="-1" data-center="30.329632, -97.758797" value="r5-d">REFERENDUM ITEM #5 - ON CAMPUS CARRY</option>
 <option data-zoom="-1" data-center="30.329632, -97.758797" value="r6-d">REFERENDUM ITEM #6 - ON COMPREHENSIVE IMMIGRATION REFORM</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="pc433">PRECINCT 433, PRECINCT CHAIRMAN</option>
+<option data-zoom="+3" data-center="30.232095, -97.749754" value="pc433">PRECINCT 433, PRECINCT CHAIRMAN</option>
 
            </optgroup>
            <optgroup label="Republican party races">
@@ -190,12 +190,12 @@
 <option data-zoom="-1" data-center="30.329632, -97.758797" value="p2-r">PROPOSITION 2</option>
 <option data-zoom="-1" data-center="30.329632, -97.758797" value="p3-r">PROPOSITION 3</option>
 <option data-zoom="-1" data-center="30.329632, -97.758797" value="p4-r">PROPOSITION 4</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="pc129">PRECINCT 129, PRECINCT CHAIRMAN</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="pc308-r">PRECINCT 308, PRECINCT CHAIRMAN</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="pc312-r">PRECINCT 312, PRECINCT CHAIRMAN</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="pc316-r">PRECINCT 316, PRECINCT CHAIRMAN</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="pc334-r">PRECINCT 334, PRECINCT CHAIRMAN</option>
-<option data-zoom="-1" data-center="30.329632, -97.758797" value="pc429-r">PRECINCT 429, PRECINCT CHAIRMAN</option>
+<option data-zoom="+3" data-center="30.279221, -97.665287" value="pc129">PRECINCT 129, PRECINCT CHAIRMAN</option>
+<option data-zoom="+2" data-center="30.401235, -98.049124" value="pc308-r">PRECINCT 308, PRECINCT CHAIRMAN</option>
+<option data-zoom="+3" data-center="30.413655, -97.930594" value="pc312-r">PRECINCT 312, PRECINCT CHAIRMAN</option>
+<option data-zoom="+2" data-center="30.302496, -98.031929" value="pc316-r">PRECINCT 316, PRECINCT CHAIRMAN</option>
+<option data-zoom="+3" data-center="30.446749, -97.806538" value="pc334-r">PRECINCT 334, PRECINCT CHAIRMAN</option>
+<option data-zoom="+3" data-center="30.232818, -97.718647" value="pc429-r">PRECINCT 429, PRECINCT CHAIRMAN</option>
 
            </optgroup>
           </select>
