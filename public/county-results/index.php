@@ -7,10 +7,10 @@
   $meta = array(
     "title" => "Texas results: March 1, 2016 presidential primary results by county  | Statesman.com",
     "description" => "County-level results for the March 1, 2016 presidential primary election in Texas.",
-    "thumbnail" => "http://projects.statesman.com/election-results-20151103/assets/share.png", // needs update
-    "shortcut_icon" => "http://media.cmgdigital.com/shared/theme-assets/242014/www.statesman.com_5126cb2068bd43d1ab4e17660ac48255.ico",
+    "thumbnail" => "http://projects.statesman.com/election-results-20160301/assets/social-share.png", // needs update
+    "shortcut_icon" => "http://media.cmgdigital.com/shared/media/2015-11-16-11-32-05/web/site/www_mystatesman_com/images/favicon.ico",
     "apple_touch_icon" => "http://media.cmgdigital.com/shared/theme-assets/242014/www.statesman.com_fa2d2d6e73614535b997734c7e7d2287.png",
-    "url" => "http://projects.statesman.com/databases/election-results-20151103/",
+    "url" => "http://projects.statesman.com/databases/election-results-20160301/county-results/",
     "twitter" => "statesman"
   );
 ?>
@@ -80,13 +80,13 @@
   </div>
 </nav>
 
-<div id="back">
-  <div class="container">
+  <article class="container">
+  <br>
     <div class="row">
-      <div class="col-xs-12 header">
+      <div class="col-xs-12 interactive-header">
         <h4>2016 Texas primary</h4>
-        <h2 class="page-title">County-level presidential results</h2>
-        <p><small>Interactive by Christian McDonald and Cody Winchester, Austin American-Statesman</small></p>
+        <h1 class="page-title">County-level presidential results</h1>
+        <p class="author">Interactive by Christian McDonald and Cody Winchester, Austin American-Statesman</p>
         <p>Roll your cursor over each county on the map to see votes for candidates in the Republican and Democratic presidential primaries in Texas. Hover over a candidate's name in the map legend to see his or her support in each county.</p>
       </div>
 
@@ -108,6 +108,7 @@
     </div>
 </div>
   </div>
+  </article>
 
   <script type="text/html" class="key_template">
       <% _.each(template_data.cands, function(z) { %>
@@ -160,7 +161,6 @@
     <script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyBFqzY0Bf4VMn4Wtx-EEb9S-cVkvzm8RFE  &libraries=places"></script>
     <script src="../dist/county.js"></script>
 
-</div>
 
   <?php if($_SERVER['SERVER_NAME'] === 'localhost'): ?>
     <script src="//localhost:35729/livereload.js"></script>
