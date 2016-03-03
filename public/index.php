@@ -87,7 +87,7 @@
         <h4>2016 Texas Primary</h4>
         <h1 class="page-title">Travis county precinct-by-precinct results</h1>
         <p class="author">Interactive by Christian McDonald and Cody Winchester, Austin American-Statesman</p>
-        <p>Use the dropdown to see the highest vote-getter in a race in a Travis county precinct in the March 1 primary election. Roll your cursor over each precinct on the map to see votes for all candidates in the selected race. Hover over a candidate's name in the map legend to see his or her support in each precinct.</p>
+        <p>Use the dropdown to see the highest vote-getter in a race in a Travis county precinct in the March 1 primary election. Roll your cursor over each precinct on the map to see votes for all candidates in the selected race. Hover over a candidate's name in the map legend to see his or her support in each precinct. <span>Also check out <a href="county-results/"> county-level results for president</a></span>.</p>
       </div>
 
       <div class="form-group clearfix">

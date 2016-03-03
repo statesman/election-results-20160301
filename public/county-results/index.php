@@ -87,7 +87,7 @@
         <h4>2016 Texas primary</h4>
         <h1 class="page-title">County-level presidential results</h1>
         <p class="author">Interactive by Christian McDonald and Cody Winchester, Austin American-Statesman</p>
-        <p>Roll your cursor over each county on the map to see votes for candidates in the Republican and Democratic presidential primaries in Texas. Hover over a candidate's name in the map legend to see his or her support in each county.</p>
+        <p>Roll your cursor over each county on the map to see votes for candidates in the Republican and Democratic presidential primaries in Texas. Hover over a candidate's name in the map legend to see his or her support in each county. Also check out <a href="../">precinct-level returns for Travis County</a>.</p>
       </div>
 
     <div class="row">
